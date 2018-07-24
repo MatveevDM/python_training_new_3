@@ -11,7 +11,7 @@ class Application:
                                     firefox_binary=binary)
         self.wd.implicitly_wait(60)
         self.session = SessionHelper(self)
-        self.group - GroupHelper(self)
+        self.group = GroupHelper(self)
 
 
     def open_home_page(self):
